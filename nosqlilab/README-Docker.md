@@ -4,8 +4,8 @@ A set of files to establish Docker containers for your NoSQLiLab are included in
 
 # Installation
 
-1. [Install Docker CE for your platform (Windows, Linux, OSX)](https://docs.docker.com/engine/installation/)
-2. [Install Docker-Compose](https://docs.docker.com/compose/install/)
+1. [Install Docker CE for your platform (Windows, Linux, OSX)](https://github.com/huyqa/docker-compose-projects/tree/main/Script-Docker-Parrot-Centos-Ubuntu)
+2. [Install Docker-Compose](https://github.com/huyqa/docker-compose-projects/tree/main/Script-Docker-Parrot-Centos-Ubuntu)
 3. In the top level directory, run `docker-compose build`. This will build the containers for you according to the Dockerfiles.
 4. Launch the containers, run `docker-compose up`. You now have two containers running, one for the web front end and one for the MongoDB server.
 
